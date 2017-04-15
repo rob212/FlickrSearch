@@ -20,23 +20,6 @@ class FlickrPhotosCollectionViewController: UICollectionViewController {
     
     fileprivate let itemsPerRow: CGFloat = 3
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Register cell classes
-        self.collectionView!.register(UICollectionViewCell.self, forCellWithReuseIdentifier: reuseIdentifier)
-
-        // Do any additional setup after loading the view.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
     /*
     // MARK: - Navigation
 
@@ -59,8 +42,10 @@ class FlickrPhotosCollectionViewController: UICollectionViewController {
     }
 
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath)
-        cell.backgroundColor = UIColor.blue
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath) as! FlickrPhotoCell
+        let flickrPhoto = photoForIndexPath(indexPath: indexPath)
+        cell.backgroundColor = UIColor.white
+        cell.imageView.image = flickrPhoto.thumbnail
         return cell
     }
 

@@ -15,6 +15,7 @@
 		702CC23F1EA204F2000EC034 /* Flickr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702CC23C1EA204F2000EC034 /* Flickr.swift */; };
 		702CC2401EA204F2000EC034 /* FlickrPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702CC23D1EA204F2000EC034 /* FlickrPhoto.swift */; };
 		702CC2411EA204F2000EC034 /* FlickrSearchResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702CC23E1EA204F2000EC034 /* FlickrSearchResults.swift */; };
+		702CC2431EA20DF0000EC034 /* FlickrPhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702CC2421EA20DF0000EC034 /* FlickrPhotoCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		702CC23C1EA204F2000EC034 /* Flickr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flickr.swift; sourceTree = "<group>"; };
 		702CC23D1EA204F2000EC034 /* FlickrPhoto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickrPhoto.swift; sourceTree = "<group>"; };
 		702CC23E1EA204F2000EC034 /* FlickrSearchResults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickrSearchResults.swift; sourceTree = "<group>"; };
+		702CC2421EA20DF0000EC034 /* FlickrPhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickrPhotoCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				702CC22F1EA1FEFA000EC034 /* Assets.xcassets */,
 				702CC2311EA1FEFA000EC034 /* LaunchScreen.storyboard */,
 				702CC2341EA1FEFA000EC034 /* Info.plist */,
+				702CC2421EA20DF0000EC034 /* FlickrPhotoCell.swift */,
 			);
 			path = FlickrSearch;
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 				702CC2401EA204F2000EC034 /* FlickrPhoto.swift in Sources */,
 				702CC23F1EA204F2000EC034 /* Flickr.swift in Sources */,
 				702CC2291EA1FEFA000EC034 /* AppDelegate.swift in Sources */,
+				702CC2431EA20DF0000EC034 /* FlickrPhotoCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
