@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		702CC2291EA1FEFA000EC034 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702CC2281EA1FEFA000EC034 /* AppDelegate.swift */; };
-		702CC22B1EA1FEFA000EC034 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702CC22A1EA1FEFA000EC034 /* ViewController.swift */; };
 		702CC22E1EA1FEFA000EC034 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 702CC22C1EA1FEFA000EC034 /* Main.storyboard */; };
 		702CC2301EA1FEFA000EC034 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 702CC22F1EA1FEFA000EC034 /* Assets.xcassets */; };
 		702CC2331EA1FEFA000EC034 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 702CC2311EA1FEFA000EC034 /* LaunchScreen.storyboard */; };
+		702CC23B1EA20199000EC034 /* FlickrPhotosCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702CC23A1EA20199000EC034 /* FlickrPhotosCollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		702CC2251EA1FEFA000EC034 /* FlickrSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlickrSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		702CC2281EA1FEFA000EC034 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		702CC22A1EA1FEFA000EC034 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		702CC22D1EA1FEFA000EC034 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		702CC22F1EA1FEFA000EC034 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		702CC2321EA1FEFA000EC034 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		702CC2341EA1FEFA000EC034 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		702CC23A1EA20199000EC034 /* FlickrPhotosCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickrPhotosCollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +55,8 @@
 			isa = PBXGroup;
 			children = (
 				702CC2281EA1FEFA000EC034 /* AppDelegate.swift */,
-				702CC22A1EA1FEFA000EC034 /* ViewController.swift */,
 				702CC22C1EA1FEFA000EC034 /* Main.storyboard */,
+				702CC23A1EA20199000EC034 /* FlickrPhotosCollectionViewController.swift */,
 				702CC22F1EA1FEFA000EC034 /* Assets.xcassets */,
 				702CC2311EA1FEFA000EC034 /* LaunchScreen.storyboard */,
 				702CC2341EA1FEFA000EC034 /* Info.plist */,
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				702CC22B1EA1FEFA000EC034 /* ViewController.swift in Sources */,
+				702CC23B1EA20199000EC034 /* FlickrPhotosCollectionViewController.swift in Sources */,
 				702CC2291EA1FEFA000EC034 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
